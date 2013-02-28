@@ -1,9 +1,9 @@
 //
 //  UIImage+iPhone5.m
-//  CSLCLottery
+//  
 //
 //  Created by 李伟 on 13-2-28.
-//  Copyright (c) 2013年 CSLC. All rights reserved.
+//  Copyright (c) 2013年 LiWei. All rights reserved.
 //
 
 #import "UIImage+iPhone5.h"
