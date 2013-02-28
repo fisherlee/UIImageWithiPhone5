@@ -23,9 +23,9 @@
         type = type;
     }
     if (iPhone5) {
-        imgName = [NSString stringWithFormat:@"%@-ip5.%@",name, type];
+        imgName = [NSString stringWithFormat:@"%@-ip5",name];
     }else{
-        imgName = [NSString stringWithFormat:@"%@.%@",name, type];
+        imgName = name;
     }
     
     NSString *path = [[NSBundle mainBundle] pathForResource:imgName ofType:type];
