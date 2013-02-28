@@ -28,7 +28,10 @@
         imgName = [NSString stringWithFormat:@"%@.%@",name, type];
     }
     
-    UIImage *image = [UIImage imageNamed:imgName];
+    NSString *path = [[NSBundle mainBundle] pathForResource:imgName ofType:type];
+    
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+
     return image;
 }
 
